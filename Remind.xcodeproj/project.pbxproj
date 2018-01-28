@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652B149A2002D05A003349A1 /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B14992002D05A003349A1 /* AddDataViewController.swift */; };
+		652B14A42002E7EB003349A1 /* ExpensesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B14A32002E7EB003349A1 /* ExpensesCell.swift */; };
 		65823D4C1FE6F9BA00BDD5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65823D4B1FE6F9BA00BDD5A4 /* AppDelegate.swift */; };
-		65823D4E1FE6F9BA00BDD5A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65823D4D1FE6F9BA00BDD5A4 /* ViewController.swift */; };
+		65823D4E1FE6F9BA00BDD5A4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65823D4D1FE6F9BA00BDD5A4 /* DataViewController.swift */; };
 		65823D511FE6F9BA00BDD5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65823D4F1FE6F9BA00BDD5A4 /* Main.storyboard */; };
 		65823D541FE6F9BA00BDD5A4 /* Exp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65823D521FE6F9BA00BDD5A4 /* Exp.xcdatamodeld */; };
 		65823D561FE6F9BA00BDD5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65823D551FE6F9BA00BDD5A4 /* Assets.xcassets */; };
 		65823D591FE6F9BA00BDD5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65823D571FE6F9BA00BDD5A4 /* LaunchScreen.storyboard */; };
-		65823D641FE6F9BA00BDD5A4 /* ExpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65823D631FE6F9BA00BDD5A4 /* ExpTests.swift */; };
-		65823D6F1FE6F9BA00BDD5A4 /* ExpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65823D6E1FE6F9BA00BDD5A4 /* ExpUITests.swift */; };
+		65D1569A20045B8A00095934 /* BirthdayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1569920045B8A00095934 /* BirthdayListViewController.swift */; };
+		65D1569C20045BA600095934 /* AddBirthdayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1569B20045BA600095934 /* AddBirthdayListViewController.swift */; };
+		65DF2502200451C600FA1B18 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF2501200451C600FA1B18 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652B14992002D05A003349A1 /* AddDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
+		652B14A32002E7EB003349A1 /* ExpensesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesCell.swift; sourceTree = "<group>"; };
 		65823D481FE6F9BA00BDD5A4 /* Exp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65823D4B1FE6F9BA00BDD5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65823D4D1FE6F9BA00BDD5A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65823D4D1FE6F9BA00BDD5A4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		65823D501FE6F9BA00BDD5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65823D531FE6F9BA00BDD5A4 /* Exp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Exp.xcdatamodel; sourceTree = "<group>"; };
 		65823D551FE6F9BA00BDD5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65823D581FE6F9BA00BDD5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65823D5A1FE6F9BA00BDD5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65823D5F1FE6F9BA00BDD5A4 /* ExpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65823D631FE6F9BA00BDD5A4 /* ExpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpTests.swift; sourceTree = "<group>"; };
-		65823D651FE6F9BA00BDD5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65823D6A1FE6F9BA00BDD5A4 /* ExpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65823D6E1FE6F9BA00BDD5A4 /* ExpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpUITests.swift; sourceTree = "<group>"; };
-		65823D701FE6F9BA00BDD5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D1569920045B8A00095934 /* BirthdayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListViewController.swift; sourceTree = "<group>"; };
+		65D1569B20045BA600095934 /* AddBirthdayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayListViewController.swift; sourceTree = "<group>"; };
+		65DF2501200451C600FA1B18 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				65823D4A1FE6F9BA00BDD5A4 /* Exp */,
-				65823D621FE6F9BA00BDD5A4 /* ExpTests */,
-				65823D6D1FE6F9BA00BDD5A4 /* ExpUITests */,
 				65823D491FE6F9BA00BDD5A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,32 +102,19 @@
 			isa = PBXGroup;
 			children = (
 				65823D4B1FE6F9BA00BDD5A4 /* AppDelegate.swift */,
-				65823D4D1FE6F9BA00BDD5A4 /* ViewController.swift */,
+				652B14A32002E7EB003349A1 /* ExpensesCell.swift */,
 				65823D4F1FE6F9BA00BDD5A4 /* Main.storyboard */,
+				65DF2501200451C600FA1B18 /* MainViewController.swift */,
+				65D1569B20045BA600095934 /* AddBirthdayListViewController.swift */,
+				65D1569920045B8A00095934 /* BirthdayListViewController.swift */,
+				65823D4D1FE6F9BA00BDD5A4 /* DataViewController.swift */,
+				652B14992002D05A003349A1 /* AddDataViewController.swift */,
 				65823D551FE6F9BA00BDD5A4 /* Assets.xcassets */,
 				65823D571FE6F9BA00BDD5A4 /* LaunchScreen.storyboard */,
 				65823D5A1FE6F9BA00BDD5A4 /* Info.plist */,
 				65823D521FE6F9BA00BDD5A4 /* Exp.xcdatamodeld */,
 			);
 			path = Exp;
-			sourceTree = "<group>";
-		};
-		65823D621FE6F9BA00BDD5A4 /* ExpTests */ = {
-			isa = PBXGroup;
-			children = (
-				65823D631FE6F9BA00BDD5A4 /* ExpTests.swift */,
-				65823D651FE6F9BA00BDD5A4 /* Info.plist */,
-			);
-			path = ExpTests;
-			sourceTree = "<group>";
-		};
-		65823D6D1FE6F9BA00BDD5A4 /* ExpUITests */ = {
-			isa = PBXGroup;
-			children = (
-				65823D6E1FE6F9BA00BDD5A4 /* ExpUITests.swift */,
-				65823D701FE6F9BA00BDD5A4 /* Info.plist */,
-			);
-			path = ExpUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652B149A2002D05A003349A1 /* AddDataViewController.swift in Sources */,
+				65D1569C20045BA600095934 /* AddBirthdayListViewController.swift in Sources */,
 				65823D541FE6F9BA00BDD5A4 /* Exp.xcdatamodeld in Sources */,
-				65823D4E1FE6F9BA00BDD5A4 /* ViewController.swift in Sources */,
+				652B14A42002E7EB003349A1 /* ExpensesCell.swift in Sources */,
+				65D1569A20045B8A00095934 /* BirthdayListViewController.swift in Sources */,
+				65DF2502200451C600FA1B18 /* MainViewController.swift in Sources */,
+				65823D4E1FE6F9BA00BDD5A4 /* DataViewController.swift in Sources */,
 				65823D4C1FE6F9BA00BDD5A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65823D641FE6F9BA00BDD5A4 /* ExpTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65823D6F1FE6F9BA00BDD5A4 /* ExpUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,12 +422,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QREB4933L8;
 				INFOPLIST_FILE = Exp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosapps.Exp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,12 +439,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QREB4933L8;
 				INFOPLIST_FILE = Exp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosapps.Exp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
