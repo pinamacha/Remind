@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		652B14992002D05A003349A1 /* AddDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
 		652B14A32002E7EB003349A1 /* ExpensesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesCell.swift; sourceTree = "<group>"; };
-		65823D481FE6F9BA00BDD5A4 /* Exp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65823D481FE6F9BA00BDD5A4 /* Remind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65823D4B1FE6F9BA00BDD5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65823D4D1FE6F9BA00BDD5A4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		65823D501FE6F9BA00BDD5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,8 +48,8 @@
 		65823D551FE6F9BA00BDD5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65823D581FE6F9BA00BDD5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65823D5A1FE6F9BA00BDD5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65823D5F1FE6F9BA00BDD5A4 /* ExpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65823D6A1FE6F9BA00BDD5A4 /* ExpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65823D5F1FE6F9BA00BDD5A4 /* RemindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65823D6A1FE6F9BA00BDD5A4 /* RemindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D1569920045B8A00095934 /* BirthdayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListViewController.swift; sourceTree = "<group>"; };
 		65D1569B20045BA600095934 /* AddBirthdayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayListViewController.swift; sourceTree = "<group>"; };
 		65DF2501200451C600FA1B18 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		65823D3F1FE6F9BA00BDD5A4 = {
 			isa = PBXGroup;
 			children = (
-				65823D4A1FE6F9BA00BDD5A4 /* Exp */,
+				65823D4A1FE6F9BA00BDD5A4 /* Remind */,
 				65823D491FE6F9BA00BDD5A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		65823D491FE6F9BA00BDD5A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65823D481FE6F9BA00BDD5A4 /* Exp.app */,
-				65823D5F1FE6F9BA00BDD5A4 /* ExpTests.xctest */,
-				65823D6A1FE6F9BA00BDD5A4 /* ExpUITests.xctest */,
+				65823D481FE6F9BA00BDD5A4 /* Remind.app */,
+				65823D5F1FE6F9BA00BDD5A4 /* RemindTests.xctest */,
+				65823D6A1FE6F9BA00BDD5A4 /* RemindUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65823D4A1FE6F9BA00BDD5A4 /* Exp */ = {
+		65823D4A1FE6F9BA00BDD5A4 /* Remind */ = {
 			isa = PBXGroup;
 			children = (
 				65823D4B1FE6F9BA00BDD5A4 /* AppDelegate.swift */,
@@ -114,15 +114,15 @@
 				65823D5A1FE6F9BA00BDD5A4 /* Info.plist */,
 				65823D521FE6F9BA00BDD5A4 /* Exp.xcdatamodeld */,
 			);
-			path = Exp;
+			path = Remind;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65823D471FE6F9BA00BDD5A4 /* Exp */ = {
+		65823D471FE6F9BA00BDD5A4 /* Remind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65823D731FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "Exp" */;
+			buildConfigurationList = 65823D731FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "Remind" */;
 			buildPhases = (
 				65823D441FE6F9BA00BDD5A4 /* Sources */,
 				65823D451FE6F9BA00BDD5A4 /* Frameworks */,
@@ -132,14 +132,14 @@
 			);
 			dependencies = (
 			);
-			name = Exp;
+			name = Remind;
 			productName = Exp;
-			productReference = 65823D481FE6F9BA00BDD5A4 /* Exp.app */;
+			productReference = 65823D481FE6F9BA00BDD5A4 /* Remind.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65823D5E1FE6F9BA00BDD5A4 /* ExpTests */ = {
+		65823D5E1FE6F9BA00BDD5A4 /* RemindTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65823D761FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "ExpTests" */;
+			buildConfigurationList = 65823D761FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "RemindTests" */;
 			buildPhases = (
 				65823D5B1FE6F9BA00BDD5A4 /* Sources */,
 				65823D5C1FE6F9BA00BDD5A4 /* Frameworks */,
@@ -150,14 +150,14 @@
 			dependencies = (
 				65823D611FE6F9BA00BDD5A4 /* PBXTargetDependency */,
 			);
-			name = ExpTests;
+			name = RemindTests;
 			productName = ExpTests;
-			productReference = 65823D5F1FE6F9BA00BDD5A4 /* ExpTests.xctest */;
+			productReference = 65823D5F1FE6F9BA00BDD5A4 /* RemindTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65823D691FE6F9BA00BDD5A4 /* ExpUITests */ = {
+		65823D691FE6F9BA00BDD5A4 /* RemindUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65823D791FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "ExpUITests" */;
+			buildConfigurationList = 65823D791FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "RemindUITests" */;
 			buildPhases = (
 				65823D661FE6F9BA00BDD5A4 /* Sources */,
 				65823D671FE6F9BA00BDD5A4 /* Frameworks */,
@@ -168,9 +168,9 @@
 			dependencies = (
 				65823D6C1FE6F9BA00BDD5A4 /* PBXTargetDependency */,
 			);
-			name = ExpUITests;
+			name = RemindUITests;
 			productName = ExpUITests;
-			productReference = 65823D6A1FE6F9BA00BDD5A4 /* ExpUITests.xctest */;
+			productReference = 65823D6A1FE6F9BA00BDD5A4 /* RemindUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65823D431FE6F9BA00BDD5A4 /* Build configuration list for PBXProject "Exp" */;
+			buildConfigurationList = 65823D431FE6F9BA00BDD5A4 /* Build configuration list for PBXProject "Remind" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,9 +212,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65823D471FE6F9BA00BDD5A4 /* Exp */,
-				65823D5E1FE6F9BA00BDD5A4 /* ExpTests */,
-				65823D691FE6F9BA00BDD5A4 /* ExpUITests */,
+				65823D471FE6F9BA00BDD5A4 /* Remind */,
+				65823D5E1FE6F9BA00BDD5A4 /* RemindTests */,
+				65823D691FE6F9BA00BDD5A4 /* RemindUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,12 +281,12 @@
 /* Begin PBXTargetDependency section */
 		65823D611FE6F9BA00BDD5A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65823D471FE6F9BA00BDD5A4 /* Exp */;
+			target = 65823D471FE6F9BA00BDD5A4 /* Remind */;
 			targetProxy = 65823D601FE6F9BA00BDD5A4 /* PBXContainerItemProxy */;
 		};
 		65823D6C1FE6F9BA00BDD5A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65823D471FE6F9BA00BDD5A4 /* Exp */;
+			target = 65823D471FE6F9BA00BDD5A4 /* Remind */;
 			targetProxy = 65823D6B1FE6F9BA00BDD5A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,9 +425,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QREB4933L8;
-				INFOPLIST_FILE = Exp/Info.plist;
+				INFOPLIST_FILE = Remind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosapps.Exp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosapps.Remind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -442,9 +442,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QREB4933L8;
-				INFOPLIST_FILE = Exp/Info.plist;
+				INFOPLIST_FILE = Remind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosapps.Exp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosapps.Remind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -465,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exp.app/Exp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remind.app/Remind";
 			};
 			name = Debug;
 		};
@@ -482,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exp.app/Exp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remind.app/Remind";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65823D431FE6F9BA00BDD5A4 /* Build configuration list for PBXProject "Exp" */ = {
+		65823D431FE6F9BA00BDD5A4 /* Build configuration list for PBXProject "Remind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65823D711FE6F9BA00BDD5A4 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65823D731FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "Exp" */ = {
+		65823D731FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "Remind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65823D741FE6F9BA00BDD5A4 /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65823D761FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "ExpTests" */ = {
+		65823D761FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "RemindTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65823D771FE6F9BA00BDD5A4 /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65823D791FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "ExpUITests" */ = {
+		65823D791FE6F9BA00BDD5A4 /* Build configuration list for PBXNativeTarget "RemindUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65823D7A1FE6F9BA00BDD5A4 /* Debug */,
